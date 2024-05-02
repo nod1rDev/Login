@@ -10,28 +10,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    children: [
-      {
-        path: "/login",
-        element: <SignInSide />,
-      },
-      {
-        path: "/signUp",
-        element: <SignUp />,
-      },
-      {
-        path: "/product",
+  },
+  {
+    path: "/login",
+    element: <SignInSide />,
+  },
+  {
+    path: "/signUp",
+    element: <SignUp />,
+  },
+  {
+    path: "/product",
 
-        element: (
-          <Prodected>
-            <Products />
-          </Prodected>
-        ),
-      },
-    ],
+    element: (
+      <Prodected>
+        <Products />
+      </Prodected>
+    ),
   },
 ]);
-
 
 function App() {
   return (
