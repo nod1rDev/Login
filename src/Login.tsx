@@ -132,7 +132,7 @@ export default function SignInSide() {
               <Grid container>
                 <div className=" mx-auto">
                   <Grid item>
-                    <Link href="register" variant="body2">
+                    <Link href="signUp" variant="body2">
                       {"Don't have an account? Sign Up"}
                     </Link>
                   </Grid>

@@ -19,7 +19,7 @@ function Prodected({ children }: { children: React.ReactNode | any }) {
       return children;
     }
 
-    return <Navigate to={"/register"}></Navigate>;
+    return <Navigate to={"/signUp"}></Navigate>;
   }
 }
 
