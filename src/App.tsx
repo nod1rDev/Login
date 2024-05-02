@@ -2,9 +2,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root from "./Root";
 import SignInSide from "./Login";
-import SignUp from "./SignUp";
 import Products from "./Products";
 import Prodected from "./Protected";
+import SignUp from "./SignUp";
 
 const router = createBrowserRouter([
   {
