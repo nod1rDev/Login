@@ -32,7 +32,7 @@ export default function SignInSide() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const data = new FormData(event.currentTarget);
+
     // setData({
     //   username: data.get("username"),
     //   password: data.get("password"),
