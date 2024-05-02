@@ -10,23 +10,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-  },
-  {
-    path: "/login",
-    element: <SignInSide />,
-  },
-  {
-    path: "/register",
-    element: <SignUp />,
-  },
-  {
-    path: "/product",
+    children: [
+      {
+        path: "/login",
+        element: <SignInSide />,
+      },
+      {
+        path: "/register",
+        element: <SignUp />,
+      },
+      {
+        path: "/product",
 
-    element: (
-      <Prodected>
-        <Products />
-      </Prodected>
-    ),
+        element: (
+          <Prodected>
+            <Products />
+          </Prodected>
+        ),
+      },
+    ],
   },
 ]);
 
